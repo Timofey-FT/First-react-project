@@ -15,7 +15,7 @@ const LoginPage = () => {
     return (
         <>
         <input value={login} type="text" onChange={(e) => setLogin(e.target.value)} /> 
-        <input type="text" class="damir" /> 
+        <input type="text" class="damir  " /> 
         <input value={password} type="text" onChange={(e) => setPassword(e.target.value)}/>
         <button onClick={handleClick}>login</button>
         </>
